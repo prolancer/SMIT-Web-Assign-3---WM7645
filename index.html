@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+<head>  
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive WebSite</title>
+	<style type="text/css">
+        @media screen and (max-width: 786px)
+        {
+          .slideshow-container
+          {
+          	display: none;
+          }
+          .text
+          {
+          	display: none;
+          }
+        }
+        .clearfix{
+        	clear: both;
+        }
+		*
+		{ 
+			margin:0px;
+		    font-family: calibri;		   
+		}
+		.icons{
+			width: 100%;
+			height: 60px;
+			background-color: #316DC3;
+			display: inline-block;
+		}
+		.icons ul li
+		{
+			    list-style-type: none;
+			    display: inline-block;
+			    margin-top: 20px;
+			    margin-right: 20px;
+			    float: left;
+
+		}
+		.buttons
+		{
+		        list-style-type: none;
+			    display: inline-block;
+			    font-size: 14px;
+			    float: left;
+			    margin-top: 2px;
+
+		}
+		.buttons li
+		{             
+              background-color: white;
+              
+              height: 20px;
+              width: 100px;
+		}
+		.buttons a
+		{
+			text-decoration: none;
+			padding:5px;
+		}	
+		.image
+		{
+			float:left;
+		}
+		.navtext ul
+		{
+			font-size: 14px;
+			margin-top: 5px;
+			padding-right:40px;
+			text-align: center;
+		}		
+		.NavigationBar .navtext ul li
+		{
+			list-style-type: none;
+			 display: inline-block;
+			 margin: 10px;
+			/* float: left;*/
+			 width: 80px
+			 height:20px;			 
+		}
+		.NavigationBar .navtext a
+		{
+			text-decoration: none;
+			height: 20px;
+			width: 80px;
+		}
+		 .navtext li a:hover, .dropdown:hover .dropbtn 
+		{
+		  background-color: #316DC3;
+		  border-radius: 10px;
+		}
+
+		.navtext li.dropdown
+	    {
+		  display: inline-block;
+		}
+
+		.navtext .dropdown-content 
+		{
+		  display: none;
+		  position: absolute;
+		  background-color: #f9f9f9;
+		  min-width: 160px;
+		  box-shadow: #316DC3;
+		  z-index: 1;
+		}
+		.navtext .dropdown-content a 
+		{
+		  color: black;
+		  padding: 12px 16px;
+		  text-decoration: none;
+		  display: block;
+		  text-align: left;
+		}
+		.navtext .dropdown-content a:hover 
+		{
+			background-color: #316DC3;
+		}
+
+		.dropdown:hover .dropdown-content {
+		  display: block;
+		}
+		.slideshow-container
+		{
+			object-fit: contain;
+			width: 100%;
+			height: 300px;
+		}
+		.slidetext
+		{
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+		.intro img
+		{
+			width: 40px;
+			height: 40px;
+			display: inline-block;
+		}
+		.intro h1
+		{
+			display: inline-block;
+		}
+     
+		.incremental
+		{
+			width: 100%;
+			height: 300px;
+			background-color:rgba(36, 79, 242, 0.8) 
+		}
+		.saylaniworkdone h1
+		{
+           color: white;
+		}
+		.saylaniworkdone h3
+		{
+           color: white;
+		}
+
+		div.maincontainer
+		{   margin-top: 20px;
+            margin-left: 50px;
+        }
+        div.maincontainer2
+        {
+            margin-left: 50px;    
+        }
+       #sadqa
+        {  
+		display: inline-block;
+	    margin-left: 40px;
+		height: 180px;
+		width: 350px;
+		background-color: white;
+		box-shadow: 0 0 30px gray;
+		text-align: center;
+		padding-top: 15px;		  
+		}
+		div.mardii
+		{
+	    padding-top: 1px;
+	    display: inline-block;
+	    position: absolute;
+	    margin-left: 120px;
+	    margin-top: 9px;
+	    text-align: justify;	   
+	    }
+	    h3.mission
+	    {
+	    display: inline-block;
+	    color: dodgerblue;
+	    margin-left: 200px;
+	    font-family: 'Times New Roman', Times, serif;
+	    font-weight: bold;
+        }
+        h3.upcomingevent
+        {
+	    display: inline-block;
+	    color: dodgerblue;
+	    margin-left: 250px;
+	    font-family: 'Times New Roman', Times, serif;
+	    font-weight: bold;
+	    }
+
+	</style>
+
+</head>
+<body>
+	<div style="background-color:#316DC3; width: 100%; ">	<!-- <header> -->
+	<div class="icons">
+       <ul>
+       	<li><a href="https://api.whatsapp.com/send?phone=923331201585&text=&source=&data=&app_absent=">
+       		<img src="https://www.freepnglogos.com/uploads/whatsapp-icon-png-image-28.png" width="15px" height="15px">
+       	</a>
+       	</li>
+       	<li><a href="https://www.facebook.com/pg/saylaniwelfare">
+       		<img src="https://www.freepngimg.com/thumb/facebook/3-2-facebook-png-pic-thumb.png" width="15px" height="15px">
+       	</a>
+       	</li>
+       	<li><a href="https://twitter.com/OfficialSwit">
+       		<img src="https://www.wwaytv3.com/wp-content/uploads/2016/05/socialmedia-icons-twitter-200x200.jpg" width="15x" height="15px">
+       	</a>
+       	</li>
+       	<li><a href="https://www.instagram.com/saylaniwelfare/">
+       		<img src="https://cdn.clipart.email/ec516d89b9a3ebe5efac2d8ebfad2d96_icone-facebook-e-instagram-png-png-image_200-200.png" width="15px" height="15px">
+       	</a>
+       	</li>
+       	<li><a href="https://www.youtube.com/c/SaylaniWelfareTrustOfficialPage">
+       		<img src="https://thumbs.dreamstime.com/b/youtube-logo-icon-voronezh-russia-november-square-blue-color-164586453.jpg"width="15px" height="15px">
+       	</a>
+       	</li>
+       </ul>  
+        <div class="text" style=" padding-top: 7px; margin-top: 10px; float: left;">
+           <span style="color: white; text-align: center;"> Millions of people's life has changed, millions more awaiting your donation</span>
+        </div>
+        <div class="buttons">
+            <ul>
+                <li ><a style="color: #427900; " href="https://www.saylaniwelfare.com/UK-Ramzan">UK Donor</a></li>
+                <li><a style="color: #427900;" href="https://www.saylaniwelfare.com/Online-Sadqah">Donate Now </a></li>
+                <li><a style="color: #427900;" href="https://www.saylaniwelfare.com/result">SMIT Results </a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <!-- <Navigation Bar> -->
+    <div class="container" style="width: 80%;  height: 60px; margin:0px;">
+    <div class="NavigationBar" style="float: left;">
+    	<div class="image"  ><img src="https://www.saylaniwelfare.com/public_html/images/saylani/Saylani-logo.png" alt="" width="191.12px"	height= "52px"></div>
+    	  <div class="navtext" style="float: left; width: 100%">
+    		<ul>
+    			<li><a href="">Home</a></li>
+    			<li class="dropdown"><a href="javascript:void(0)" class="dropbtn">About</a>
+    			<div class="dropdown-content">
+                   <a href="#">Link 1</a>
+                   <a href="#">Link 2</a>
+                   <a href="#">Link 3</a>
+                 </div>
+                </li>
+                <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Saylani Servicers</a>
+    			<div class="dropdown-content">
+                   <a href="#">Link 1</a>
+                   <a href="#">Link 2</a>
+                   <a href="#">Link 3</a>
+                 </div>
+                </li>
+                <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Future Projects</a>
+    			<div class="dropdown-content">
+                   <a href="#">Link 1</a>
+                   <a href="#">Link 2</a>
+                   <a href="#">Link 3</a>
+                 </div>
+                </li>
+    			<li><a href="">Media</a></li>
+    			<li><a href="">News</a></li>
+    			<li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Donations</a>
+    			<div class="dropdown-content">
+                   <a href="#">Link 1</a>
+                   <a href="#">Link 2</a>
+                   <a href="#">Link 3</a>
+                </div>
+                </li>
+       		</ul>
+    	</div>
+    </div>
+    </div>
+
+<div class="clearfix"></div>
+<!-- <slider> -->
+    	<div class="slideshow-container">
+
+			<div class="mySlides fade">
+			  <img src="https://www.saylaniwelfare.com/uploads/2020-19-031584605809.jpeg" width="100%" height="300px">
+			</div>
+
+			<div class="mySlides fade">
+				  <img src="https://www.saylaniwelfare.com/public_html/images/saylani/slider1.png" width="100%" height="300px">
+			</div>
+
+			<div class="mySlides fade">
+			  <img src="https://www.saylaniwelfare.com/public_html/images/saylani/RotiBank_Slider.jpg" width="100%" height="300px">
+			</div>
+			<div class="mySlides fade">
+			  <img src="https://www.saylaniwelfare.com/public_html/images/saylani/Banner.jpeg" width="100%" height="300px">
+			</div>
+			<div class="mySlides fade">
+			  <img src="https://www.saylaniwelfare.com/public_html/images/saylani/RotiBank_Slider.jpg" width="100%" height="300px">
+			</div>
+			</div>
+			<br>
+			<div style="text-align:center">
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+			</div>
+
+			<script>
+				var slideIndex = 0;
+				showSlides();
+
+				function showSlides() {
+				  var i;
+				  var slides = document.getElementsByClassName("mySlides");
+				  var dots = document.getElementsByClassName("dot");
+				  for (i = 0; i < slides.length; i++) {
+				    slides[i].style.display = "none";  
+				  }
+				  slideIndex++;
+				  if (slideIndex > slides.length) {slideIndex = 1}    
+				  for (i = 0; i < dots.length; i++) {
+				    dots[i].className = dots[i].className.replace(" active", "");
+				  }
+				  slides[slideIndex-1].style.display = "block";  
+				  dots[slideIndex-1].className += " active";
+				  setTimeout(showSlides, 2000); // Change image every 2 seconds
+				}
+			</script>
+
+		</div>
+<!-- <marquee> -->
+	<div class="slidetext">
+		<p style="margin-top: 12px; background-color: #316DC3; color: white; ">
+                        <marquee direction="left" scrollamount="6" onmouseover="this.stop();" onmouseout="this.start();">
+                            <font color="#00FF00">(News-1 Dated:15-06-2019)<font color="#FFFFFF">&nbsp;&nbsp;PIAICNext Phase Admission in Islamabad And Faisalabad" . <a href="https://www.facebook.com/saylaniwelfare/photos/a.258515937507690/3441173892575196/?type=3&amp;theater" style="color: blue">More Details</a> &nbsp;&nbsp;
+                            <font color="#00FF00">(News-2 Dated:15-05-2019)<font color="#FFFFFF">&nbsp;&nbsp;Saylani Welfare Announced "Donation Application" . <a href="https://web.facebook.com/saylaniwelfare/photos/a.258515937507690/3332489120110341/?type=3&amp;theater" style="color: blue">More Details</a> &nbsp;&nbsp;
+                            <font color="#00FF00">(News-3 Dated:07-05-2019)<font color="#FFFFFF">&nbsp;&nbsp;Alhamdulillah Saylani Organized 200+ Locations For Iftar And Sehri In This Holy Month . <a href="https://www.facebook.com/saylaniwelfare/?type=3&amp;theater" style="color: blue">More Details</a> &nbsp;&nbsp;
+                           </font></font></font></font></font></font></marquee>
+                    </p>
+           </div>
+         <div>
+         	<center>
+         		<h1 style="color: #316DC3;display: inline-block; font-family: charter Bd BT; ">INTRO</h1><h1 style="color:#427900; display: inline-block;" >DUCTION</h1>
+         		<div class="intro" >
+         			<h3 style="display: inline-block;color:#427900;">_</h3><img src="https://third-project-manalliaquat.firebaseapp.com/images/logo.jpg" width="40px" height="40px"><h3 style="display: inline-block;color:#427900;">_</h3>
+         		</div>
+         		<center>
+               <div class="raf" style="line-height: 1.9; width:1000px;  height: 500px;" >
+
+                            <p  style="text-align: justify; visibility: visible; opacity: 0.7;" >Established in May 1999 by famous spiritual and religious scholar Maulana Bashir Ahmed Farooqui, Saylani
+                                Welfare International Trust was built on the fundamentals of breaking the cycle of poverty, alleviating the financial
+                                troubles of the poor, giving people a chance to live a dignified life and spreading happiness.
+                                <br>
+                                <br>
+                                We are an organization that believes in lighting up the lives of underprivileged people across the world. We
+                                endeavor to provide the best quality services in areas including food, education, medical and social welfare free
+                                of cost to people living in the dark. With over 60 different sectors, we feed thousands of hungry people each day,
+                                hundreds more are given the hope of life through medical health care, many are educated to become leaders of
+                                tomorrow and several are given the opportunity to stand on their feet financially.
+                                <br>
+                                <br>
+                                Today, we are proud to say that our physical presence extends throughout Pakistan with a vast network of 125
+                                branches operating in major cities including Karachi, Lahore, Islamabad, Rawalpindi, Hyderabad and
+                                Faisalabad. Apart from Pakistan, we have overseas offices in the UK, USA and UAE as well. Our worldwide
+                                branches are operating under the guidance of a team of over 2,000 working professionals who help almost
+                                125,000 people on a daily basis.
+                                <br>
+                                <br>
+                                We strongly believe that a little help goes a long way and our work would not be possible without the generous
+                                support of our valuable donors. Our local and international donors have graciously lent us a hand by supporting
+                                our causes and enabling us to serve the needs of people in need.
+                            </p>
+                        </div>
+                        </center>
+
+                 <div class="incremental">
+                	<div class="saylaniworkdone" >
+
+<table border="0" align="center" height="280" width="70%">
+
+  <tr> 
+    <td align="center">
+      <img src="spoon.png"><br>
+      <h1>125,000</h1><br>
+    <h3>DAILY DASTRAKHAN <span style="color: white;"> (MONTHLY)</span></h3>
+    </td>
+
+    <td align="center">
+      <img src="family.png"><br>
+      <h1>7,500</h1><br>
+    <h3>FAMILY ADOPTION<span style="color: white;">(MONTHLY)</span></h3>
+    </td>
+
+    <td align="center">
+      <img src="stotho.png"><br>
+      <h1>43,749</h1><br>
+      <h3>MEDICAL<span style="color: white;">(MONTHLY)</span></h3>
+    </td>
+
+    <td align="center">
+      <img src="degree.png"><br>
+      <h1>180,000</h1><br>
+      <h3>EDUCATION<span style="color: white;">(MONTHLY)</span></h3>
+    </td>
+
+  </tr>
+  
+</table>
+      </div>  
+  </div>
+                <div>
+                	<h1 style="color: #316DC3;display: inline-block; ">WHAT WE</h1><h1 style="color:#427900; display: inline-block;" >ARE DOING?</h1>
+                </div>
+                <div class="intro" >
+         			<h3 style="display: inline-block;color:#427900;">_</h3><img src="https://third-project-manalliaquat.firebaseapp.com/images/logo.jpg" width="40px" height="40px"><h3 style="display: inline-block;color:#427900;">_</h3>
+         		</div>
+         		 <div class="maincontainer">
+  
+    <div id="sadqa">
+      <img class="logoindivs" src="sadqalogo.png" height="70px" weight="70px"><br><br>
+<h2>ONLINE SADQAH</h2>
+
+  </div>
+
+  <div id="sadqa">
+    <img src="welfarelogo.png" height="70px" weight="70px"><br><br>
+    <h2>WELFARE</h2>
+    
+      </div>
+      
+      <div id="sadqa">
+        <img src="madicallogo.png" height="70px" weight="70px"><br><br>
+        <h2>MADICAL</h2>
+        
+          </div>
+        </div>
+<br>
+        <div class="maincontainer2">
+  
+          <div id="sadqa">
+            <img class="logoindivs" src="Dastarkhwanlogo.png" height="70px" weight="70px"><br><br>
+      <h2>DASTARKHAN</h2>
+      
+        </div>
+      
+        <div id="sadqa">
+          <img src="ROPLANTlogo.png" height="70px" weight="70px"><br><br>
+          <h2>ROPLANT</h2>
+          
+            </div>
+            
+            <div id="sadqa">
+              <img src="educationlogo.png" height="70px" weight="70px"><br><br>
+              <h2>EDUCATION</h2>
+              
+                </div>
+              </div><br><br><br><br>
+
+              <h3 class="mission">MISSION AND UPCOMING PROJECTS</h3>
+              <h3 class="upcomingevent">Upcoming Events</h3> 
+
+            </div>
+              <div class="akhri" style="float: left;">
+                
+<img src="hepa.png">
+<img src="house.png" alt="">
+<br>
+
+<img src="it.png" alt="">
+<img src="tharparkar.png" alt="">
+
+              </div>             
+           
+ <center>            
+        <div style="width: 100%">
+
+
+        	<br>
+        	<br><br>
+         	<div class="intro" >
+
+         <h1 style="color: #316DC3;display: inline-block; font-family: charter Bd BT; ">IMAGE</h1><h1 style="color:#427900; display: inline-block;" >GALLERY</h1>
+         		<h3 style="display: inline-block;color:#427900;">_</h3><img src="https://third-project-manalliaquat.firebaseapp.com/images/logo.jpg" width="40px" height="40px"><h3 style="display: inline-block;color:#427900;">_</h3>
+         	</div>
+         	<div>
+         		<img src="https://www.saylaniwelfare.com/public_html/images/saylani/gallery/rashan2.jpg" style="width: 186px; height: 123.88px;">
+         		<img src="https://www.saylaniwelfare.com/public_html/images/saylani/gallery/food.jpg" style="width: 186px; height: 123.88px;">
+         		<img src="https://www.saylaniwelfare.com/public_html/images/saylani/gallery/hazrat.jpg" style="width: 186px; height: 123.88px;">
+         		<img src="https://www.saylaniwelfare.com/public_html/images/saylani/gallery/rashan2.jpg" style="width: 186px; height: 123.88px;">
+         		<img src="https://www.saylaniwelfare.com/public_html/images/saylani/gallery/hazrat2.jpg" style="width: 186px; height: 123.88px;">
+            </div>
+         </center>
+        </div>
+         	
+    <div class="footer-bottom bg-black-333">
+        <div class="container pt-15 pb-10">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="font-11 text-black-777 m-0" style="color:white; background-color:#316DC3; height:80px;">Copyright © 2020 Muhammad Hammad Khan </p>
+                </div>
+                <div class="col-md-6 text-right">
+                    <div class="widget no-border m-0">
+                       <!--  <ul class="list-inline sm-text-center mt-5 font-12">
+                            <li>
+                                  <a href="#">FAQ</a>
+                                </li>
+                                <li>|</li>
+                                <li>
+                                  <a href="#">Help Desk</a>
+                                </li>
+                                <li>|</li>
+                                <li>
+                                  <a href="/islam/support" target="_blank">Support</a>
+                                </li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
